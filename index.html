@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title Movie></title>
+<meta name="author"
+content="">
+<meta name="description"
+content="">
+<meta name="viewport"
+content="width=device-width, initial-scale=1">
+<script src="https://lpcdn.lpsnmedia.net/webagent/client-SDK.min.js"></script>
+<script src="index.js"></script>
+</head>
+<body>
+<div class="container">
+	<form onsubmit="readQuery()">
+	<label for="query">Please enter your query below:</label><br/><br/>
+	<textarea name="queryText" id="queryText" cols="50" rows="5">
+	</textarea>
+	<br/>
+	<input type="submit"/>
+	</form>
+	<div><b>Updated Query: </b><span id="updatedQuery"></span></div>
+
+</div>
+</body>
+</html>
